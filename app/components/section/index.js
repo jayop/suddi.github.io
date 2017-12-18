@@ -31,10 +31,10 @@ const Section = React.createClass({
         return (
             <div>
                 <About content={this.props.basics}/>
-                <Work content={this.props.work}/>
+                <Skills content={skillsContent} />
+                <Portfolio content={this.props.portfolio} />
                 <Education content={this.props.education}/>
-                <Skills content={skillsContent}/>
-                <Portfolio content={this.props.portfolio}/>
+                <Work content={this.props.work} />
                 <References content={this.props.references}/>
                 <Footer content={this.props.basics}/>
             </div>

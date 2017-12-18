@@ -22,7 +22,7 @@ const Entry = React.createClass({
 
         return (
             <div className='row item'>
-                <div className='twelve columns'>
+                {/* <div className='twelve columns'>
                     <h3>
                         <a href={this.props.entry.website}>{this.props.entry.company}</a>
                     </h3>
@@ -35,7 +35,7 @@ const Entry = React.createClass({
                     </p>
                     <BulletPoints points={this.props.entry.highlights}/>
                 </div>
-                {divider}
+                {divider} */}
             </div>
         );
     }
@@ -51,7 +51,7 @@ const Work = React.createClass({
         return (
             <section id='work'>
                 <div className='row work'>
-                    <div className='two columns header-col'>
+                    {/* <div className='two columns header-col'>
                         <h1>
                             <span>Work</span>
                         </h1>
@@ -62,7 +62,7 @@ const Work = React.createClass({
                                 <Entry key={index} index={index} total={numEntries} entry={entry}/>
                             );
                         })}
-                    </div>
+                    </div> */}
                 </div>
             </section>
         );

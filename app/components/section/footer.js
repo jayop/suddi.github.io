@@ -16,7 +16,7 @@ const Footer = React.createClass({
                 <div className='row'>
                     <div className='twelve columns'>
                         <SocialMedia ulClass='social-links' profiles={this.props.content.profiles}/>
-                        <ul className='copyright'>
+                        {/* <ul className='copyright'>
                             <li>
                                 This site is developed in React.js by&nbsp;
                                 <a
@@ -34,7 +34,7 @@ const Footer = React.createClass({
                                     Styleshout
                                 </a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                     <div id='go-top'>
                         <a className='smoothscroll' title='Back to Top' href='#home'>

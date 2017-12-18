@@ -8,17 +8,17 @@ function getResumePath() {
     if (['localhost', '127.0.0.1'].indexOf(window.location.hostname) === -1) {
         return '/public/resume.json';
     }
-    return '/public/resume.example.json';
+    return '/public/resume.json';
 }
 
 function getNavigation() {
     return {
         home: 'Home',
         about: 'About',
-        work: 'Work',
-        education: 'Education',
         skill: 'Skills',
         portfolio: 'Portfolio',
+        education: 'Education',
+        // work: 'Work',
         testimonials: 'References'
     };
 }

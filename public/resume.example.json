@@ -1,11 +1,11 @@
 {
     "basics": {
-        "name": "<FULL_NAME>",
+        "name": "Jay Kim",
         "label": "<PROFESSION>",
-        "picture": "<PHOTO>",
-        "email": "<EMAIL_ADDRESS>",
+        "picture": "../../ProfilePic.jpg",
+        "email": "jay.xtreme.op@gmail.com",
         "phone": "<PHONE_NUMBER>",
-        "website": "<WEBSITE>",
+        "website": "www.jaycv.com",
         "summary": [
             "<SUMMARY_1>",
             "<SUMMARY_2>",

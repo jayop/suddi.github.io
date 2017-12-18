@@ -44,7 +44,7 @@ const References = React.createClass({
         return (
             <section id='testimonials'>
                 <div className='text-container'>
-                    <div className='row'>
+                    {/* <div className='row'>
                         <div className='two columns header-col'>
                             <h1>
                                 <span>References</span>
@@ -64,7 +64,7 @@ const References = React.createClass({
                                 </Carousel>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         );
