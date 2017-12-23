@@ -33,8 +33,8 @@ const Section = React.createClass({
                 <About content={this.props.basics}/>
                 <Skills content={skillsContent} />
                 <Portfolio content={this.props.portfolio} />
-                <Education content={this.props.education}/>
                 <Work content={this.props.work} />
+                <Education content={this.props.education}/>
                 <References content={this.props.references}/>
                 <Footer content={this.props.basics}/>
             </div>
