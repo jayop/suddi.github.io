@@ -4,6 +4,7 @@
 
 const path = require('path');
 const webpack = require('webpack');
+const Dotenv = require('dotenv-webpack');
 
 function getConfig() {
     return {
@@ -44,6 +45,10 @@ function getConfig() {
                 },
                 minimize: true,
                 sourceMap: true
+            }),
+            new Dotenv({
+                path: './.env',
+                safe: false
             })
         ]
     };

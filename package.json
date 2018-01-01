@@ -27,7 +27,7 @@
     "npm": ">= 2.0.0"
   },
   "scripts": {
-    "bundle": "webpack -p --progress",
+    "build": "webpack -p --progress",
     "deploy": "webpack -p --progress --config webpack.deploy.js",
     "lint": "eslint .",
     "prepush": "npm run lint && npm run security-check",
@@ -36,6 +36,7 @@
     "test": "npm run lint && npm run security-check && npm run bundle"
   },
   "dependencies": {
+    "dotenv-webpack": "^1.5.4",
     "process-env": "^1.1.0"
   },
   "devDependencies": {
