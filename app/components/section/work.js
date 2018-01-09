@@ -34,6 +34,7 @@ const Entry = React.createClass({
                         {/* <span> &bull; </span> */}
                         <em className='date'>{this.props.entry.startDate} - {this.props.entry.endDate}</em>
                     </p>
+                    {this.props.entry.summary}
                     <BulletPoints points={this.props.entry.highlights}/>
                 </div>
                 {divider}

@@ -1,57 +1,30 @@
-'use strict';
+const path = require('path')
+const webpack = require('webpack')
+const Dotenv = require('dotenv-webpack')
 
-/* eslint camelcase: 'off' */
-
-const path = require('path');
-const webpack = require('webpack');
-const Dotenv = require('dotenv-webpack');
-
-function getConfig() {
-    return {
-        devtool: 'source-map',
-
-        entry: [
-            path.join(__dirname, 'app/index.js')
-        ],
-
-        output: {
-            path: path.join(__dirname, 'public'),
-            filename: 'bundle.js'
-        },
-
-        module: {
-            rules: [
-                {
-                    test: /\.js$/,
-                    include: path.join(__dirname, 'app'),
-                    loaders: ['babel-loader']
+module.exports = {
+    entry: path.join(__dirname, 'app/index.js'),
+    output: {
+        path: path.join(__dirname, 'public'),
+        filename: 'bundle.js'
+    },
+    watch: true,
+    module: {
+        loaders: [
+            {
+                test: /\.(js|jsx)$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/,
+                query: {
+                    presets: ['es2015', 'react']
                 }
-            ]
-        },
-
-        plugins: [
-            new webpack.LoaderOptionsPlugin({
-                minimize: true
-            }),
-            new webpack.optimize.UglifyJsPlugin({
-                compress: {
-                    unused: true,
-                    dead_code: true,
-                    warnings: true,
-                    screw_ie8: true
-                },
-                compressor: {
-                    warnings: false
-                },
-                minimize: true,
-                sourceMap: true
-            }),
-            new Dotenv({
-                path: './.env',
-                safe: false
-            })
+            }
         ]
-    };
+    },
+    plugins: [
+        new Dotenv({
+            path: './.env',
+            safe: false
+        })
+    ]
 }
-
-module.exports = getConfig();
