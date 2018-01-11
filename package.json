@@ -3,25 +3,6 @@
   "private": true,
   "description": "",
   "version": "1.2.2",
-  "homepage": "https://suddi.github.io",
-  "author": {
-    "name": "Sudharshan Ravindran",
-    "email": "suddi@mail.io",
-    "url": "https://suddi.github.io"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/suddi/suddi.github.io"
-  },
-  "bugs": {
-    "url": "https://github.com/suddi/suddi.github.io/issues"
-  },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "https://github.com/suddi/suddi.github.io/LICENSE"
-    }
-  ],
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 2.0.0"

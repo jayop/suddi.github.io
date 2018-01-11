@@ -16,10 +16,11 @@ function getNavigation() {
         home: 'Home',
         about: 'About',
         skill: 'Skills',
-        portfolio: 'Portfolio',
+        projects: 'Projects',
         work: 'Work',
         education: 'Education',
-        testimonials: 'References'
+        // portfolio: 'Portfolio',
+        // testimonials: 'References'
     };
 }
 

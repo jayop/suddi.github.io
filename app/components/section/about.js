@@ -17,14 +17,14 @@ const About = React.createClass({
                         <img className='profile-pic' src={this.props.content.picture} alt={this.props.content.name}/>
                     </div>
                     <div className='ten columns main-col'>
-                        {/* <h2>About Me</h2>
+                        <h2>About Me</h2>
                         {this.props.content.summary.map(function (content, index) {
                             return (
                                 <p key={index}>
                                     {content}
                                 </p>
                             );
-                        })} */}
+                        })}
                         <div className='row'>
                             <div className='columns contact-details'>
                                 <h2>Contact Details</h2>
@@ -33,9 +33,9 @@ const About = React.createClass({
                                     <span>{this.props.content.location.address}</span>
                                     <br/>
                                     */}
-                                    {/* <span>{this.props.content.location.city}</span>
+                                    <span>{this.props.content.location.city}</span>
                                     <br/>
-                                    <span>{this.props.content.location.countryCode}</span>
+                                    {/* <span>{this.props.content.location.countryCode}</span>
                                     <br/> */}
                                     {/* <a href={`skype:${this.props.content.phone}`}>
                                         <span>{this.props.content.phone}</span>

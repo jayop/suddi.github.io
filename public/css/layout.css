@@ -282,6 +282,58 @@ strong.fa-quora {
   font: 100% serif;
 }
 
+/* ------------------------------------------------------------------ */
+/* d. Projects Section
+/* ------------------------------------------------------------------ */
+
+#projects {
+   background: #fff;
+   padding-top: 72px;
+   padding-bottom: 0px;
+   overflow: hidden;
+}
+
+#projects a, #projects a:visited  { color: #11ABB0; }
+#projects a:hover, #projects a:focus { color: #313131; }
+
+#projects h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#projects h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#projects h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#projects .header-col { padding-top: 9px; }
+#projects .main-col { padding-right: 10%; }
+
+#projects .info {
+   font: 15px/24px 'librebaskerville-regular', sans-serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#projects .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#projects .info-summary {
+   font: 15px/24px 'librebaskerville-regular', sans-serif;
+   margin-top: 6px;
+}
+#projects .date {
+   font: 15px/24px 'librebaskerville-regular', sans-serif;
+   margin-top: 6px;
+}
+#projects .point {
+   margin: 0 0 10px 0;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Work Section
@@ -347,13 +399,13 @@ strong.fa-quora {
 
 #education {
    background: #fff;
-   padding-top: 72px;
+   padding-top: 90px;
    padding-bottom: 0px;
    overflow: hidden;
 }
 
-#education a, #education a:visited  { color: #11ABB0; }
-#education a:hover, #education a:focus { color: #313131; }
+#education a, #education a:visited  { color: #313131; }
+#education a:hover, #education a:focus { color: #11ABB0; }
 
 #education h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -371,6 +423,11 @@ strong.fa-quora {
 #education .header-col { padding-top: 9px; }
 #education .main-col { padding-right: 10%; }
 
+.education, .education {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
 #education .info {
    font: 15px/24px 'librebaskerville-regular', sans-serif;
    color: #6E7881;
